@@ -32,6 +32,7 @@ function DemoCounter(props) {
 * mapStateToProps(state,props)
 * 1.state就是store存储的state对象
 * 2.props就是该组件接受的props值(可省略)
+* 3.使用props作为参数后,如果容器组件的props参数发生变化，也会引发 UI 组件重新渲染
 * */
 function mapStateToProps(state, props) {
   return {
