@@ -36,7 +36,8 @@ function DemoCounter(props) {
 * */
 function mapStateToProps(state, props) {
   return {
-    counter: state.counter + props.number
+    // counter: state.counter + props.number
+    counter: state.counter
   }
 }
 
